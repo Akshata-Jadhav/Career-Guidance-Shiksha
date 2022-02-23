@@ -1,0 +1,218 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What services does you provide ?",
+        "What kinds of services you provide?",
+        "services?"
+      ],
+      "responses": [
+        "We provide services like Career Guidance,Admission in your choice of colleges,Scholorships.To know more visit site :<a href='https://school.careers360.com/'>Click Here</a>"]
+      
+    },
+    {"tag": "about",
+      "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+      "responses": ["I'm Shiksha, your bot assistant", "I'm Shiksha, an Artificial Intelligent bot"]
+     },
+     {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me Shiksha.", "I'm Shiksha!", "Just call me as Shiksha"]
+     },
+     {"tag": "help",
+     "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+     "responses": ["Tell me how can assist you.", "Tell me your problem to assist you.", "Yes Sure, How can I support you."]
+     },
+     {"tag": "createaccount",
+     "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+     "responses": ["You can just easily create a new account from our web site, Just go to our web site and follow the guidelines to create a new account <a href='/contact' target='_blank'>Register<a/>"]
+     },
+     {"tag": "complaint",
+     "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+     "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused."]
+     },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal,UPI",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "transaction",
+      "patterns": [
+        "How can I pay?",
+        "What is your phone pay id",
+        "upi id?"
+        
+      ],
+      "responses": [
+        "UPI Id- 7256866379@ybl"
+        
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can we contact you?",
+        "what is your contact address?",
+        "How to make contact with you?"
+        
+      ],
+      "responses": [
+        "You can call our phone number:-+917256866379,Our office Address:NSTI Mumbai(Chunnabhatti), 400022, Maharashtra, India"
+      ]
+    },
+    {
+      "tag": "12th",
+      "patterns": [
+        "What to do after 12th?",
+        "What to do after senior secondary?",
+        "what after 12th?"
+      ],
+      "responses": [
+        "In which stream you studied in 12th? PCB,PCM,ARTS,COMMERCE"
+        
+      ]
+    },
+    {
+      "tag": "counseling",
+      "patterns": [
+        "i need couseling?",
+        "couseling?",
+        "career advice?"
+      ],
+      "responses": [
+        "In which stream you studied in 12th? PCB,PCM,ARTS,COMMERCE"
+        
+      ]
+    },
+    {
+      "tag": "Biology",
+      "patterns": [
+        "",
+        "Biology",
+        "PCB",
+        "pcb"
+      ],
+      "responses": [
+        "MBBS,BDS,Bachelor of Veterinary Science,Bachelor of Occupational Therapy,Bachelor of Physiotherapy .To know more visit site :<a href='https://school.careers360.com/articles/courses-after-12th-pcb/' target='_balank' >Link</a> ]",
+        "Integrated BTech-MTech Biotechnology,BS in Bioinformatics,Bachelor of Viticulture, Bachelor of Naturopathy and Yogic Science (BNYS course) .site :<a href='https://school.careers360.com/articles/courses-after-12th-pcb/' target='_blank'>Link</a> ]",
+        "Bachelor of Ayurvedic Medicine and Surgery (BAMS),Bachelor of Unani Medicine and Surgery (BUMS),BSc Courses [Multiple Specialisations]. To know more visit site :<a href='https://school.careers360.com/articles/courses-after-12th-pcb/' target ='_blank'>Link</a> ]",
+        "BS/Bachelor of Arts ,Biochemistry, Microbiology, To know more visit site :<a href='https://school.careers360.com/articles/courses-after-12th-pcb/' target='_blank'>Click Here</a> ]"
+        
+      ]
+    },
+    {
+      "tag": "pcb diploma",
+      "patterns": [
+        "diploma courses in biology?",
+        "diploma courses in biology after 12th?",
+        "diploma courses in bio after 12th?"
+      ],
+      "responses": [
+        "Diploma in Physiotherapy,Diploma in Yoga,Diploma in Nursing,Diploma in Environmental Science,Diploma in Elementary Education,Diploma in Pharmacy,Diploma in Hotel Management,Diploma in Fashion Communication,Diploma in Agriculture,Diploma in Digital Marketing"
+        
+      ]
+    },
+    {
+      "tag": "pcm",
+      "patterns": [
+        "What to do after 12th?",
+        "What to do after senior secondary?",
+        "what after 12t?"
+      ],
+      "responses": [
+        "In which stream you studied in 12th? PCB,PCM,ARTS,COMMERCE"]
+        
+    },
+    
+    {
+      "tag": "Engineering college",
+      "patterns": [
+        "which college is best for engineering?",
+        "Engineering colleges?",
+        "b.tech colleges?"
+      ],
+      "responses": [
+        "VIT (Vellore Institute of Technology),Thapar intitute of engineering & Technology,Birla Institute of Technology and Science,SRM University,MS Ramaiah Institute of Technology,RV College of Engineering,Kalinga Institute of Industrial Technology.To know more visit site :<a href='https://digitallearning.eletsonline.com/ranking/national-ranking-top-private-engineering-institute-of-india-2019/' target='_blank'>Click Here</a>"]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can we contact you?",
+        "where we can register for counselling?",
+        "How to connect with your expert?"
+      ],
+      "responses": [
+        "you can visit our contact page to connect with us. <a href='/contact' target ='_blank'>Contact<a/>"]
+        
+    },
+
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much you charge?",
+        "What is your pricing?",
+        "how much it cost?",
+        "cost",
+        "price"
+      ],
+      "responses": [
+        "It depend on which type of service you want.First talk to our expert/mentor🙂🙂"]
+        
+    },
+
+    {
+      "tag": "12th",
+      "patterns": [
+        "What to do after 12th?",
+        "What to do after senior secondary?",
+        "what after 12th?"
+      ],
+      "responses": [
+        "In which stream you studied in 12th? PCB,PCM,ARTS,COMMERCE"
+        
+      ]
+    }
+  ]
+}
